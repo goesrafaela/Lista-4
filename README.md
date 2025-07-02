@@ -1,51 +1,62 @@
-### Este projeto consiste na criação de uma página web pessoal desenvolvida com HTML5 semântico e CSS responsivo, com o objetivo de apresentar o perfil profissional de Rafaela Góes, desenvolvedora de 27 anos, de forma estruturada, moderna e acessível.
+# Página de Perfil Pessoal - Rafaela Góes
 
-###
+Este projeto é uma página web pessoal desenvolvida com **HTML5 semântico** e **CSS responsivo**, com o objetivo de apresentar o perfil profissional de **Rafaela Góes**, desenvolvedora de 27 anos, de forma clara, moderna e adaptável a diferentes dispositivos.
 
-### Objetivos do Projeto
+## ✨ Objetivos do Projeto
 
-## Criar um portfólio básico e funcional, apresentando informações profissionais e pessoais.
+- Criar um portfólio pessoal funcional e acessível.
+- Utilizar **HTML5 semântico** para organização e acessibilidade do conteúdo.
+- Aplicar recursos de **CSS moderno**, incluindo:
+  - Layout com Flexbox e Grid
+  - Variáveis CSS para personalização
+  - Pseudo-classes e pseudo-elementos
+  - Design responsivo para diversos tamanhos de tela
 
-## Utilizar boas práticas de HTML5 semântico, garantindo clareza e acessibilidade do conteúdo.
+---
 
-## Aplicar recursos de CSS moderno, como Flexbox, Grid, variáveis, pseudo-classes e responsividade, para um design atraente e adaptável a diferentes dispositivos.
+## 🗂️ Estrutura do Projeto
 
-## Estrutura da Página
+Na raiz do repositório estão os seguintes arquivos:
 
-## A página está organizada em seções claras, seguindo a semântica do HTML5:
+perfil.html
+styles.css
 
-<header>: Apresenta o nome, uma foto e uma breve descrição ou slogan.
+O conteúdo da página está dividido em seções:
 
-<nav>: Menu de navegação com âncoras para as seções internas.
+- **`<header>`**: Nome, foto e slogan.
+- **`<nav>`**: Menu de navegação interna.
+- **`<main>`**:
+  - **Sobre mim**: Breve apresentação.
+  - **Habilidades**: Competências profissionais.
+  - **Projetos**: Exemplos de trabalhos ou iniciativas.
+  - **Contato**: Informações para comunicação.
+- **`<aside>`**: Links de redes sociais.
+- **`<footer>`**: Créditos e direitos autorais.
 
-<main>:
+---
 
-## Sobre mim: Breve apresentação pessoal e profissional.
+## 🛠️ Tecnologias Utilizadas
 
-## Habilidades: Lista de conhecimentos e competências.
+- HTML5 semântico
+- CSS3 com:
+  - Flexbox e Grid
+  - Variáveis CSS
+  - Pseudo-classes e pseudo-elementos
+  - Media queries para responsividade
+- Reset CSS para garantir consistência entre navegadores
 
-## Projetos: Espaço para descrever projetos ou trabalhos realizados.
+---
 
-## Contato: Informações para entrar em contato.
+## 📱 Responsividade
 
-##
+O layout foi planejado para se adaptar a diferentes dispositivos, garantindo boa visualização tanto em telas de desktop quanto em dispositivos móveis.
 
-<aside>: Links complementares, como perfis em redes sociais.
+---
 
-<footer>: Rodapé com créditos e direitos autorais.
+## 🚀 Status do Projeto
 
-### Tecnologias Utilizadas
+Em desenvolvimento — Primeira versão básica criada seguindo o padrão proposto no desafio.
 
-## ✅ HTML5 com estrutura semântica.
+---
 
-## ✅ CSS3 com:
-
-## Flexbox e Grid para layout.
-
-## Variáveis CSS para padronização de cores e estilos.
-
-## Pseudo-classes e pseudo-elementos para interatividade.
-
-### Design responsivo, garantindo boa visualização em diferentes dispositivos.
-
-## ✅ Reset/Normalize CSS para consistência visual entre navegadores.
+## Para vizualizar o projeto, clicar com o botão direito no perfil.html e clicar na primeira opção!

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafaela Góes - Desenvolvedora</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Fundo de Partículas -->
+    <div id="particles-js"></div>
+
+    <header>
+      <img src="img/eu.jpg" alt="Foto de Rafaela Góes" class="foto-perfil" />
+      <h1>Rafaela Góes</h1>
+      <p>Desenvolvedora apaixonada por tecnologia!</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Meu nome é Rafaela Góes, tenho 27 anos e sou desenvolvedora. Sou
+          apaixonada por criar soluções e transformar ideias em código.
+        </p>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript</li>
+          <li>Git e GitHub</li>
+          <li>Desenvolvimento Responsivo</li>
+        </ul>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+
+        <article>
+          <h3>Leitor-Scanner</h3>
+          <p>
+            Projeto desenvolvido com React Native + TypeScript + Expo para um
+            leitor de código de barras
+          </p>
+        </article>
+
+        <article>
+          <h3>Contador-Fatec2.0</h3>
+          <p>Contador de patrimônio da Fatec Itu atualizado</p>
+        </article>
+
+        <article>
+          <h3>Try-City-Mob</h3>
+          <p>
+            FrontEnd de um aplicativo estilo Uber, onde poderá ser focado em
+            apenas algumas regiões
+          </p>
+        </article>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <ul>
+          <p>goes.rafaelasilva@gmail.com</p>
+          <li><a href="https://wa.me/5511996242915">WhatsApp</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Redes Sociais</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/rafaelagoes/">LinkedIn</a></li>
+        <li><a href="https://github.com/goesrafaela">GitHub</a></li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025 Rafaela Góes. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 80 },
+          color: { value: "#00ffe7" },
+          shape: { type: "circle" },
+          opacity: { value: 0.5 },
+          size: { value: 3 },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#00ffe7",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 2,
+          },
+        },
+        interactivity: {
+          events: {
+            onhover: { enable: true, mode: "repulse" },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
